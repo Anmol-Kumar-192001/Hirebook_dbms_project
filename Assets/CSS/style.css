@@ -21,3 +21,11 @@ input[type="radio"] {
 .bold {
     font-weight: bold
 }
+.btn {
+  background-color: #523ea5;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #523e88;
+}
