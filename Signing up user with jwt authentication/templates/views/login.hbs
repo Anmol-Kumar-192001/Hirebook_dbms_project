@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>header}}
+    <title>index</title>
+</head>
+
+<body>
+    {{>navbar}}
+    <form action="/login" method="POST">
+        <div>
+            Email:<input type="email" name="myEmail" placeholder="Enter your email">
+        </div>
+        <div>
+            Password:<input type="password" name="myPassword" placeholder="Enter your password">
+        </div>
+        <div>
+            <input type="submit" value="sign in">
+        </div>
+    </form>
+</body>
+
+</html>
